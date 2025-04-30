@@ -25,7 +25,7 @@
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
         <TargetFramework>net9.0</TargetFramework>
         <Title>AStar.Dev.Infrastructure</Title>
-        <Version>0.1.0</Version>
+        <Version>0.1.1</Version>
     </PropertyGroup>
 
 	<ItemGroup>
@@ -35,6 +35,7 @@
     <ItemGroup>
         <None Include="LICENSE" Pack="true" PackagePath=""/>
         <None Include="Readme.md" Pack="true" PackagePath=""/>
+        <None Include="AStar.png" Pack="true" PackagePath=""/>
     </ItemGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
