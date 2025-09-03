@@ -11,5 +11,5 @@ public interface IComplexPropertyConfiguration<TEntity>
     /// </summary>
     /// <param name="builder"></param>
     /// <returns></returns>
-    void Configure(ComplexPropertyBuilder<TEntity> builder);
+    public void Configure(ComplexPropertyBuilder<TEntity> builder);
 }
